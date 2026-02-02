@@ -73,13 +73,12 @@ nav a {
 .flex .opinion {
     display: flex;
     flex-direction: row;
-    
-}
-
-.opinion {
-    padding: 8px 50px;
     border: 1px solid black;
     border-radius: 5px;
+}
+
+.opinion div {
+    padding: 8px 50px;
 }
 
 .opinion .bad {
