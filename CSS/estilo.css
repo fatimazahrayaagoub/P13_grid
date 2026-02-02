@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-image:url("../IMG/css-grid.jpg") ;
+    background-position: center;
+    background-attachment: fixed;
+    height: 5rem;
+}
+nav ul  {
+    display: flex;
+    list-style: none;
+
+
+
+}
+nav  {
+    width: 100%;
+    height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+nav a {
+ text-decoration: none;
+    text-align: center;
+    padding: 20px;
+}
+.main-container {
+   display: grid;
+   grid-template-columns: repeat(4,20%);
+   gap: 1.25rem;
+   justify-content: center;
+   padding-top: 1rem;
+   
+}
+.grid {
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 12px;
+}
+.css-tricks{
+    background-color: palevioletred;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 2px;
+    width: max-content;
+    margin-top: 3rem;
+}
+.grid .text {
+    padding-top: 1rem;
+}
+.grid h2 {
+    font-weight: 1rem;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.flex p {
+    padding: 1rem;
+}
+
+.flex .opinion {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.opinion div {
+    padding: 8px 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.opinion .bad {
+    background-color:rgba(255, 0, 0, 0.573);
+
+}
+.opinion .good {
+    background-color:rgba(0, 128, 0, 0.425);
+}
+
